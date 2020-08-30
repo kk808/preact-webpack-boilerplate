@@ -1,4 +1,4 @@
-import React from 'react'
+import { h } from 'preact'
 
 const Panel = ({ text }) => {
   return <div className='panel'>{text}</div>

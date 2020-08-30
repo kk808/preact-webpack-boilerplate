@@ -1,6 +1,5 @@
-import 'style/style.less';
-import React from "react";
-import ReactDOM from "react-dom";
-import App from 'src/index';
+import 'style/style.less'
+import { h, render } from 'preact'
+import App from 'src/index'
 
-ReactDOM.render(<App />, document.getElementById("app"));
+render(<App />, document.getElementById('app'))
